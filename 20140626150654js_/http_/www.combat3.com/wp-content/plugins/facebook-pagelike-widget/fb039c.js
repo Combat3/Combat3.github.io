@@ -10,7 +10,7 @@ jQuery(document).ready(function () {
 });
 /*
      FILE ARCHIVED ON 15:06:54 Jun 26, 2014 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 23:26:01 Apr 16, 2019.
+     INTERNET ARCHIVE ON 21:57:21 Apr 17, 2019.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -18,14 +18,14 @@ jQuery(document).ready(function () {
 */
 /*
 playback timings (ms):
-  LoadShardBlock: 87.98 (3)
-  esindex: 0.01
-  captures_list: 112.037
-  CDXLines.iter: 12.603 (3)
-  PetaboxLoader3.datanode: 127.598 (5)
-  exclusion.robots: 0.185
-  exclusion.robots.policy: 0.172
-  RedisCDXSource: 6.747
-  PetaboxLoader3.resolve: 107.497 (2)
-  load_resource: 151.196
+  LoadShardBlock: 23.757 (3)
+  esindex: 0.006
+  captures_list: 39.731
+  CDXLines.iter: 11.539 (3)
+  PetaboxLoader3.datanode: 63.164 (5)
+  exclusion.robots: 0.123
+  exclusion.robots.policy: 0.114
+  RedisCDXSource: 1.857
+  PetaboxLoader3.resolve: 35.259 (2)
+  load_resource: 519.098
 */

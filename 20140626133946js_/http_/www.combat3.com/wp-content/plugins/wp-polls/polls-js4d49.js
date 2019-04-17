@@ -1,7 +1,7 @@
 var poll_id=0;var poll_answer_id='';var is_being_voted=false;pollsL10n.show_loading=parseInt(pollsL10n.show_loading);pollsL10n.show_fading=parseInt(pollsL10n.show_fading);function poll_vote(current_poll_id){if(!is_being_voted){set_is_being_voted(true);poll_id=current_poll_id;poll_answer_id='';poll_multiple_ans=0;poll_multiple_ans_count=0;if(jQuery('#poll_multiple_ans_'+poll_id).length){poll_multiple_ans=parseInt(jQuery('#poll_multiple_ans_'+poll_id).val())}jQuery('#polls_form_'+poll_id+' input:checkbox, #polls_form_'+poll_id+' input:radio, #polls_form_'+poll_id+' option').each(function(i){if(jQuery(this).is(':checked')||jQuery(this).is(':selected')){if(poll_multiple_ans>0){poll_answer_id=jQuery(this).val()+','+poll_answer_id;poll_multiple_ans_count++}else{poll_answer_id=parseInt(jQuery(this).val())}}});if(poll_multiple_ans>0){if(poll_multiple_ans_count>0&&poll_multiple_ans_count<=poll_multiple_ans){poll_answer_id=poll_answer_id.substring(0,(poll_answer_id.length-1));poll_process()}else if(poll_multiple_ans_count==0){set_is_being_voted(false);alert(pollsL10n.text_valid)}else{set_is_being_voted(false);alert(pollsL10n.text_multiple+' '+poll_multiple_ans)}}else{if(poll_answer_id>0){poll_process()}else{set_is_being_voted(false);alert(pollsL10n.text_valid)}}}else{alert(pollsL10n.text_wait)}}function poll_process(){poll_nonce=jQuery('#poll_'+poll_id+'_nonce').val();if(pollsL10n.show_fading){jQuery('#polls-'+poll_id).fadeTo('def',0,function(){if(pollsL10n.show_loading){jQuery('#polls-'+poll_id+'-loading').show()}jQuery.ajax({type:'POST',url:pollsL10n.ajax_url,data:'action=polls&view=process&poll_id='+poll_id+'&poll_'+poll_id+'='+poll_answer_id+'&poll_'+poll_id+'_nonce='+poll_nonce,cache:false,success:poll_process_success})})}else{if(pollsL10n.show_loading){jQuery('#polls-'+poll_id+'-loading').show()}jQuery.ajax({type:'POST',url:pollsL10n.ajax_url,data:'action=polls&view=process&poll_id='+poll_id+'&poll_'+poll_id+'='+poll_answer_id+'&poll_'+poll_id+'_nonce='+poll_nonce,cache:false,success:poll_process_success})}}function poll_result(current_poll_id){if(!is_being_voted){set_is_being_voted(true);poll_id=current_poll_id;poll_nonce=jQuery('#poll_'+poll_id+'_nonce').val();if(pollsL10n.show_fading){jQuery('#polls-'+poll_id).fadeTo('def',0,function(){if(pollsL10n.show_loading){jQuery('#polls-'+poll_id+'-loading').show()}jQuery.ajax({type:'GET',url:pollsL10n.ajax_url,data:'action=polls&view=result&poll_id='+poll_id+'&poll_'+poll_id+'_nonce='+poll_nonce,cache:false,success:poll_process_success})})}else{if(pollsL10n.show_loading){jQuery('#polls-'+poll_id+'-loading').show()}jQuery.ajax({type:'GET',url:pollsL10n.ajax_url,data:'action=polls&view=result&poll_id='+poll_id+'&poll_'+poll_id+'_nonce='+poll_nonce,cache:false,success:poll_process_success})}}else{alert(pollsL10n.text_wait)}}function poll_booth(current_poll_id){if(!is_being_voted){set_is_being_voted(true);poll_id=current_poll_id;poll_nonce=jQuery('#poll_'+poll_id+'_nonce').val();if(pollsL10n.show_fading){jQuery('#polls-'+poll_id).fadeTo('def',0,function(){if(pollsL10n.show_loading){jQuery('#polls-'+poll_id+'-loading').show()}jQuery.ajax({type:'GET',url:pollsL10n.ajax_url,data:'action=polls&view=booth&poll_id='+poll_id+'&poll_'+poll_id+'_nonce='+poll_nonce,cache:false,success:poll_process_success})})}else{if(pollsL10n.show_loading){jQuery('#polls-'+poll_id+'-loading').show()}jQuery.ajax({type:'GET',url:pollsL10n.ajax_url,data:'action=polls&view=booth&poll_id='+poll_id+'&poll_'+poll_id+'_nonce='+poll_nonce,cache:false,success:poll_process_success})}}else{alert(pollsL10n.text_wait)}}function poll_process_success(data){jQuery('#polls-'+poll_id).replaceWith(data);if(pollsL10n.show_loading){jQuery('#polls-'+poll_id+'-loading').hide()}if(pollsL10n.show_fading){jQuery('#polls-'+poll_id).fadeTo('def',1,function(){set_is_being_voted(false)})}else{set_is_being_voted(false)}}function set_is_being_voted(voted_status){is_being_voted=voted_status}
 /*
      FILE ARCHIVED ON 13:39:46 Jun 26, 2014 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 23:25:54 Apr 16, 2019.
+     INTERNET ARCHIVE ON 21:57:18 Apr 17, 2019.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -9,14 +9,14 @@ var poll_id=0;var poll_answer_id='';var is_being_voted=false;pollsL10n.show_load
 */
 /*
 playback timings (ms):
-  LoadShardBlock: 69.119 (3)
-  esindex: 0.004
-  captures_list: 83.046
-  CDXLines.iter: 8.703 (3)
-  PetaboxLoader3.datanode: 113.509 (5)
-  exclusion.robots: 0.103
-  exclusion.robots.policy: 0.097
-  RedisCDXSource: 2.437
-  PetaboxLoader3.resolve: 98.406 (3)
-  load_resource: 145.126
+  LoadShardBlock: 61.881 (3)
+  esindex: 0.008
+  captures_list: 78.992
+  CDXLines.iter: 11.058 (3)
+  PetaboxLoader3.datanode: 45.684 (5)
+  exclusion.robots: 0.214
+  exclusion.robots.policy: 0.199
+  RedisCDXSource: 2.0
+  PetaboxLoader3.resolve: 64.369 (3)
+  load_resource: 71.801
 */

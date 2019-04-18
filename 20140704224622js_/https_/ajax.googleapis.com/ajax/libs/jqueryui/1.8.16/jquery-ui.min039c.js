@@ -415,7 +415,7 @@ f.rotate(null)}:function(){t=j.selected;l()});if(i){this.element.bind("tabsshow"
 
 /*
      FILE ARCHIVED ON 22:46:22 Jul 04, 2014 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 21:56:44 Apr 17, 2019.
+     INTERNET ARCHIVE ON 00:43:49 Apr 18, 2019.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -423,14 +423,14 @@ f.rotate(null)}:function(){t=j.selected;l()});if(i){this.element.bind("tabsshow"
 */
 /*
 playback timings (ms):
-  LoadShardBlock: 34.893 (3)
-  esindex: 0.01
-  captures_list: 64.314
-  CDXLines.iter: 12.837 (3)
-  PetaboxLoader3.datanode: 60.548 (5)
-  exclusion.robots: 0.221
-  exclusion.robots.policy: 0.202
-  RedisCDXSource: 1.925
-  PetaboxLoader3.resolve: 46.207 (2)
-  load_resource: 80.083
+  LoadShardBlock: 31.385 (3)
+  esindex: 0.005
+  captures_list: 55.742
+  CDXLines.iter: 10.991 (3)
+  PetaboxLoader3.datanode: 95.005 (5)
+  exclusion.robots: 0.215
+  exclusion.robots.policy: 0.203
+  RedisCDXSource: 4.281
+  PetaboxLoader3.resolve: 48.807 (2)
+  load_resource: 139.766
 */

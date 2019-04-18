@@ -955,7 +955,7 @@
 var pp_alreadyInitialized = false; // Used for the deep linking to make sure not to call the same function several times.
 /*
      FILE ARCHIVED ON 12:07:00 Jun 26, 2014 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 21:56:53 Apr 17, 2019.
+     INTERNET ARCHIVE ON 00:44:03 Apr 18, 2019.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -963,14 +963,14 @@ var pp_alreadyInitialized = false; // Used for the deep linking to make sure not
 */
 /*
 playback timings (ms):
-  LoadShardBlock: 54.359 (3)
-  esindex: 0.01
-  captures_list: 90.728
-  CDXLines.iter: 15.627 (3)
-  PetaboxLoader3.datanode: 91.601 (5)
-  exclusion.robots: 0.232
-  exclusion.robots.policy: 0.216
-  RedisCDXSource: 13.427
-  PetaboxLoader3.resolve: 138.175 (2)
-  load_resource: 180.703
+  LoadShardBlock: 52.335 (3)
+  esindex: 0.009
+  captures_list: 72.346
+  CDXLines.iter: 12.928 (3)
+  PetaboxLoader3.datanode: 63.04 (5)
+  exclusion.robots: 0.18
+  exclusion.robots.policy: 0.166
+  RedisCDXSource: 1.888
+  PetaboxLoader3.resolve: 56.884 (3)
+  load_resource: 75.515
 */

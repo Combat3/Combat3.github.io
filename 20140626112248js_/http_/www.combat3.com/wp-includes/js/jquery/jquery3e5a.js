@@ -8,7 +8,7 @@ jQuery.noConflict();
 
 /*
      FILE ARCHIVED ON 11:22:48 Jun 26, 2014 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 21:56:36 Apr 17, 2019.
+     INTERNET ARCHIVE ON 00:43:35 Apr 18, 2019.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -16,14 +16,15 @@ jQuery.noConflict();
 */
 /*
 playback timings (ms):
-  LoadShardBlock: 57.56 (3)
   esindex: 0.01
-  captures_list: 78.329
-  CDXLines.iter: 13.302 (3)
-  PetaboxLoader3.datanode: 83.282 (5)
-  exclusion.robots: 0.204
-  exclusion.robots.policy: 0.19
-  RedisCDXSource: 3.677
-  PetaboxLoader3.resolve: 53.758 (2)
-  load_resource: 115.301
+  LoadShardBlock: 95.517 (3)
+  esindex: 0.009
+  captures_list: 125.252
+  CDXLines.iter: 13.594 (3)
+  PetaboxLoader3.datanode: 132.201 (5)
+  exclusion.robots: 0.231
+  exclusion.robots.policy: 0.212
+  RedisCDXSource: 12.376
+  PetaboxLoader3.resolve: 42.856 (2)
+  load_resource: 87.472
 */

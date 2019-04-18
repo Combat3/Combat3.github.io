@@ -1446,7 +1446,7 @@ eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 
 /*
      FILE ARCHIVED ON 12:21:22 Jun 26, 2014 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 21:56:40 Apr 17, 2019.
+     INTERNET ARCHIVE ON 00:43:41 Apr 18, 2019.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -1454,14 +1454,14 @@ eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 */
 /*
 playback timings (ms):
-  LoadShardBlock: 52.736 (3)
-  esindex: 0.007
-  captures_list: 68.883
-  CDXLines.iter: 10.101 (3)
-  PetaboxLoader3.datanode: 65.872 (5)
-  exclusion.robots: 0.146
-  exclusion.robots.policy: 0.137
-  RedisCDXSource: 2.717
-  PetaboxLoader3.resolve: 185.974 (2)
-  load_resource: 275.569
+  LoadShardBlock: 58.475 (3)
+  esindex: 0.008
+  captures_list: 79.337
+  CDXLines.iter: 14.1 (3)
+  PetaboxLoader3.datanode: 167.726 (5)
+  exclusion.robots: 0.255
+  exclusion.robots.policy: 0.236
+  RedisCDXSource: 2.146
+  PetaboxLoader3.resolve: 34.606 (2)
+  load_resource: 259.885
 */

@@ -16,7 +16,6 @@ jQuery.noConflict();
 */
 /*
 playback timings (ms):
-  esindex: 0.01
   LoadShardBlock: 95.517 (3)
   esindex: 0.009
   captures_list: 125.252

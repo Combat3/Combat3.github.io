@@ -1,0 +1,321 @@
+/*************************** General Styling ***************************/
+
+/* Page Styling */
+body {
+background: #000 url(../../../../../../20140209041743im_/http_/www.combat3.com/wp-content/themes/score/lib/images/page-bg-black.png) no-repeat left top;
+}
+
+/* Text Styling */
+a {
+color: #000;
+}
+a:hover {
+color: #666;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+color: #6b6b6b;
+}
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+color: #000;
+}
+
+/* Form Styling */
+input[type="submit"],
+input[type="reset"],
+input[type="button"]
+button {
+background: #6b6b6b;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover
+button:hover {
+background: #393939;
+}
+
+
+/*************************** Header ***************************/
+
+/* Header */
+#header-bottom {
+background-color: #2d2d2d;
+}
+
+/* Logo */
+#logo span {
+background: url(../../../../../../20140209050319im_/http_/www.combat3.com/wp-content/themes/score/lib/images/logo-black.png) no-repeat;
+}
+
+
+/*************************** Navigation Menu ***************************/
+
+/* Top Level Nav */
+#nav {
+border-bottom: 1px solid #000;
+background: #222;
+}
+#nav ul a:hover,
+#nav ul a:hover {
+color: #cccccc;
+}
+#nav ul > li {
+border-color: #222;
+}
+#nav ul > li:hover {
+background: #111;
+border-color: #000;
+border-bottom-color: #111;
+}
+#nav ul li:hover .sub-menu {
+background: #111;
+border-color: #000;
+}
+
+/* Drop Down Menus */
+#nav .sub-menu {
+background-color: #111;
+border-color: #000;
+}
+
+
+/*************************** User Details ***************************/
+
+#user-details a {
+color: #d0d0d0;
+}
+#search-icon {
+border-color: #222;
+}
+#search-icon.active,
+#search-icon:hover {
+background-color: #111;
+border-color: #000;
+border-bottom-color: #111;
+}
+#search-box {
+background-color: #111;
+border-color: #000;
+}
+
+
+/*************************** Social Wrapper ***************************/
+
+/* Social Wrapper */
+#social-wrapper {
+background: #2d2d2d;
+border-top: 5px solid #151515;
+}
+
+/* Scroller */
+#scroller a:hover {
+color: #999;
+}
+.scroller-bullet {
+color: #d0d0d0;
+}
+
+
+/*************************** Slider ***************************/
+
+#slider-wrapper {
+border-top: 5px solid #151515;
+background: #383838;
+}
+#slider-wrapper .error {
+background: #2D2D2D;
+border-color: #151515;
+}
+#slider-wrapper .error a {
+color: #d0d0d0;
+}
+#slider-inner-bg {
+background: #343434;
+}
+
+
+/*************************** Page/Post ***************************/
+
+/* Share */
+#share-review-link a {
+color: #000;
+}
+#share-review-link a:hover {
+color: #222;
+}
+
+/* Follow/Unfollow Button */
+.wpfp-link {
+background: #6b6b6b;
+}
+.wpfp-link:hover {
+background: #393939;
+}
+
+
+/*************************** Review Filter Drop Downs ***************************/
+
+.jqTransformSelectWrapper div span {
+color: #000;
+}
+
+
+/*************************** Review Page ***************************/
+
+/* Review Links */
+#review-links li a {
+color: #6a6a6a;
+}
+#review-links li.tab-active a {
+color: #000;
+}
+
+/* Site Score */
+.site-score {
+background: #222;
+}
+
+/* User Score */
+.user-score {
+background: #555;
+}
+
+
+/*************************** Related Items ***************************/
+
+.related-post-title {
+color: #666;
+}
+.related-post-title:hover {
+color: #000;
+}
+
+/*************************** Profile Page ***************************/
+
+/* Profile Boxes */
+.profile-box a {
+color: #666;
+}
+.profile-box a:hover {
+color: #000;
+}
+
+/*************************** Footer ***************************/
+
+/* Footer Widgets */
+.footer-widgets-border-left {
+background: #111;
+}
+
+/* Footer Bottom */
+#footer-bottom {
+background-color: #222;
+border-top: 10px solid #151515;
+color: #5b5b5b;
+}
+#footer-bottom a {
+color: #9a9a9a;
+}
+
+
+/*************************** Widgets ***************************/
+
+/* General Widget Styling */
+.widget a {
+color: #666;
+}
+.widget a:hover {
+color: #000;
+}
+
+/* Posts Widget */
+.posts-widget .post-cats {
+color: #000;
+}
+.posts-widget .post-cats a {
+color: #000;
+}
+.posts-widget .post-cats a:hover {
+color: #666;
+}
+
+
+/*************************** Page Navigation ***************************/
+
+/* Page & Comments Navigation */
+.wp-pagenavi span,
+.wp-pagenavi a,
+.wp-pagenavi.post-navi a span {
+color: #555555;
+}
+.wp-pagenavi.post-navi a,
+.wp-pagenavi.post-navi a:hover,
+.wp-pagenavi .current,
+.wp-pagenavi a:hover,
+.wp-pagenavi.post-navi span,
+.wp-pagenavi.post-navi a span:hover {
+color: #000;
+}
+
+
+/*************************** BuddyPress ***************************/
+
+.forum a,
+.bbPress #content span.bbp-admin-links a,
+.bbPress #content .bbp-reply-permalink {
+color: #737373;
+}
+.forum a:hover,
+.bbPress #content span.bbp-admin-links a:hover,
+.bbPress #content .bbp-reply-permalink:hover,
+.bbPress #content div#item-header .updated {
+color: #000;
+}
+#content-wrapper .widget input[type="button"],
+#content-wrapper .widget input[type="submit"],
+#content-wrapper .widget input[type="reset"],
+#content-wrapper .widget input[type="file"],
+#content-wrapper .widget button,
+.bp-wrapper #content-wrapper .button,
+.bp-wrapper #content-wrapper .button.submit,
+.bp-wrapper #content-wrapper ul.button-nav li a,
+.bp-wrapper #content-wrapper .generic-button a,
+.bp-wrapper #content-wrapper .comment-reply-link,
+.bp-wrapper #content-wrapper #previous-next input,
+.bp-wrapper #content-wrapper #submit_topic_cancel,
+.bp-wrapper #content-wrapper .acomment-options a,
+.bp-wrapper #content-wrapper .activity-meta a:hover span {
+background: #6b6b6b;
+}
+.bp-wrapper #content-wrapper .button:hover,
+.bp-wrapper #content-wrapper .button.submit:hover,
+.bp-wrapper #content-wrapper ul.button-nav li a:hover,
+.bp-wrapper #content-wrapper .generic-button a:hover,
+.bp-wrapper #content-wrapper .comment-reply-link:hover,
+.bp-wrapper #content-wrapper #previous-next input:hover,
+.bp-wrapper #content-wrapper #submit_topic_cancel:hover,
+.bp-wrapper #content-wrapper .acomment-options a:hover,
+.bp-wrapper #content-wrapper div.item-list-tabs ul li a:hover span,
+.bp-wrapper #content-wrapper .activity-meta a span {
+background: #393939;
+}
+/*
+     FILE ARCHIVED ON 07:54:25 Feb 08, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:45:48 Apr 19, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 67.708 (3)
+  esindex: 0.007
+  captures_list: 84.274
+  CDXLines.iter: 12.239 (3)
+  PetaboxLoader3.datanode: 106.621 (5)
+  exclusion.robots: 0.152
+  exclusion.robots.policy: 0.143
+  RedisCDXSource: 0.583
+  PetaboxLoader3.resolve: 88.418 (2)
+  load_resource: 138.135
+*/

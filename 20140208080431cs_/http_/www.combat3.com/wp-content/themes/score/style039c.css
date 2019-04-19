@@ -1,0 +1,2299 @@
+﻿/*
+Theme Name: Score
+Version: 1.9.6
+Description: Designed by <a href="http://www.ghostpool.com">GhostPool.com</a>.
+Author: GhostPool
+Author URI: http://www.ghostpool.com
+Theme URI: http://www.ghostpool.com
+License:
+License URI:
+Tags: buddypress, dark, black, blue, gray, one-column, two-columns, left-sidebar, right-sidebar, fixed-width, custom-background, custom-colors, custom-menu, editor-style, featured-images, full-width-template, sticky-post, theme-options, translation-ready, rtl-language-support
+*/
+
+/*************************** General Styling ***************************/
+
+/* Page Styling */
+body {
+position: relative;
+color: #666;
+margin: 0 auto;
+padding: 0;
+font-family: Arial, Tahoma, "Lucida Sans Unicode", "Lucida Grande";
+font-size: 12px;
+font-weight: normal;
+text-align: center;
+}
+
+/* Text Styling */
+a {
+text-decoration: none;
+}
+a:hover {
+text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+color: #333;
+padding: 0;
+font-weight: bold;
+margin: 0 0 10px 0;
+line-height: 1;
+}
+h1 {
+font-size: 26px;
+}
+h2 {
+font-size: 24px;
+}
+h3 {
+font-size: 20px;
+}
+h4 {
+font-size: 18px;
+}
+h5 {
+font-size: 16px;
+}
+h6 {
+font-size: 13px;
+}
+p {
+line-height: 19px;
+margin-bottom: 12px;
+}
+p:last-child {
+margin-bottom: 0;
+}
+p:first-child {
+margin-bottom: 12px;
+}
+.text-left {
+text-align: left;
+}
+.text-right {
+text-align: right;
+}
+.text-center {
+text-align: center;
+}
+.text-justify {
+text-align: justify;
+}
+
+/* List Styling */
+ol {
+padding: 0;
+margin: 0;
+}
+ol li {
+list-style: decimal;
+padding: 0 0 10px 0;
+margin: 0 0 0 40px;
+}
+ul {
+padding: 0;
+margin: 0;
+list-style: square;
+}
+#content ul {
+padding: 8px 0 12px 0;
+}
+ul li {
+padding: 10px 0 0 0;
+margin: 0 0 0 20px;
+}
+ul li:first-child {
+padding: 0;
+}
+
+/* Form Styling */
+input[type="text"],
+body input[type="password"],
+textarea,
+select {
+background: #fff;
+border: 1px solid #e5e5e5;
+font-family: Arial;
+font-size: 12px;
+padding: 7px;
+margin: 0 0 5px 0;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+}
+input[type="text"]:focus,
+body input[type="password"]:focus,
+textarea:focus {
+background: #fff;
+border: 1px solid #999;
+}
+textarea {
+resize: none;
+}
+select {
+padding: 3px;
+}
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+padding: 0;
+border: 0;
+font-weight: bold;
+text-align: center;
+color: #fff;
+font-size: 12px;
+padding: 7px 10px;
+cursor: pointer;
+font-family: Arial;
+}
+input[type="radio"],
+input[type="checkbox"] {
+background: transparent;
+border: 0;
+}
+fieldset {
+margin: 0;
+padding: 20px;
+}
+legend {
+font-weight: bold;
+}
+label {
+font-weight: bold;
+}
+
+/* Table Styling */
+table {
+width: 100%;
+}
+th {
+font-weight: bold;
+padding: 10px;
+border-bottom: 1px solid #e5e5e5;
+}
+td {
+padding: 10px;
+font-size: 12px;
+border-bottom: 1px solid #e5e5e5;
+}
+
+/* Other Styling */
+cite {
+float: right;
+padding: 0 0 5px 0;
+}
+hr {
+background: #e5e5e5;
+border: 0;
+clear: both;
+width: 100%;
+height: 1px;
+padding: 0;
+margin: 20px 0;
+position: relative;
+}
+pre {
+border-width: 0 0 0 3px;
+border-style: solid;
+border-color: #e5e5e5;
+background: #f5f5f5;
+padding: 15px;
+line-height: 19px;
+font-family: "Courier New";
+overflow: auto;
+font-size: 12px;
+margin: 12px 0 0 0;
+}
+code {
+border-width: 0 0 0 3px;
+border-style: solid;
+border-color: #e5e5e5;
+background: #f5f5f5;
+font-family: "Courier New";
+clear: both;
+display: block;
+font-size: 12px;
+line-height: 19px;
+padding: 5px 15px;
+margin: 12px 0 0 0;
+}
+
+/* Image Styling */
+.aligncenter {
+position: relative;
+margin: 20px auto;
+display: block;
+clear: both;
+}
+.alignleft {
+position: relative;
+float: left;
+margin: 4px 20px 5px 0;
+}
+.alignright {
+float: right;
+position: relative;
+margin: 4px 0 5px 20px;
+}
+.wp-caption {
+position: relative;
+padding: 0;
+}
+.wp-caption img {
+margin: 0;
+}
+.wp-caption-text {
+margin: 5px 0 0;
+font-size: 11px;
+}
+.gallery img {
+border: 0 !important;
+margin: 5px 0;
+}
+.gallery-caption {
+}
+.pp_content_container .pp_gallery ul a {
+height: auto;
+max-height: 30px;
+line-height: 0;
+}
+
+/* Alignment Styling */
+.left {
+float: left;
+}
+.right {
+float: right;
+}
+.clear {
+clear: both;
+line-height: 0;
+padding: 0;
+margin: 0;
+height: 0;
+display:block;
+font-size:0;
+width:100%;
+}
+
+
+/*************************** Content Areas ***************************/
+
+/* Page Wrap */
+#page-wrapper {
+position: relative;
+margin: 0 auto;
+width: 980px;
+padding: 30px 10px;
+}
+
+/* Page Shadow */
+#page-shadow {
+position: relative;
+width: 100%;
+text-align: left;
+-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+/* Content Wrapper */
+#content-wrapper {
+float: left;
+width: 920px;
+padding: 30px;
+background: #fff;
+background-image: -moz-linear-gradient(top, #ffffff, #fafafa);
+background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#fafafa));
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#ffffff, endColorstr=#fafafa);
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#ffffff, endColorstr=#fafafa)";
+}
+
+
+/*************************** Main Content ***************************/
+
+/* Main Content */
+#content {
+position: relative;
+width: 590px;
+}
+.sb-right #content {
+float: left;
+}
+.sb-left #content {
+float: right;
+}
+.fullwidth #content {
+float: left;
+width: 920px;
+}
+
+
+/*************************** Sidebar ***************************/
+
+/* Sidebar */
+#sidebar {
+width: 300px;
+}
+.sb-right #sidebar {
+float: right;
+margin-left: 30px;
+}
+.sb-left #sidebar {
+float: left;
+margin-right: 30px;
+}
+.fullwidth #sidebar {
+display: none;
+}
+
+
+/*************************** Header ***************************/
+
+/* Header */
+#header {
+float: left;
+width: 100%;
+position: relative;
+}
+#header-bottom {
+float: left;
+background: url(../../../../../../20140209053118im_/http_/www.combat3.com/wp-content/themes/score/lib/images/stripes-bg.png) no-repeat center top;
+padding: 30px 30px 0 30px;
+width: 920px;
+position: relative;
+}
+
+/* Logo */
+#logo {
+display: block;
+float: left;
+position: relative;
+margin: 0;
+line-height: 0;
+}
+#logo a {
+line-height: 0;
+}
+#logo span {
+display: block;
+width: 280px;
+height: 135px;
+position: relative;
+top: -15px;
+left: 0;
+}
+#logo img {
+position: relative;
+}
+#logo div {
+width: 1px;
+height: 1px;
+text-indent: -9999px;
+}
+
+/* Header Content */
+#header-content {
+float: right;
+text-align: center;
+}
+
+
+/*************************** Navigation Menu ***************************/
+
+/* Nav Wrapper */
+#nav {
+float: left;
+position: relative;
+z-index: 100;
+padding: 0 25px 0 15px;
+width: 940px;
+-webkit-border-radius: 5px 5px 0 0;
+-moz-border-radius: 5px 5px 0 0;
+border-radius: 5px 5px 0 0;
+}
+
+/* Top Level Nav */
+#nav ul, #nav ul ul {
+float: left;
+position: relative;
+list-style-type: none;
+list-style-position: outside;
+}
+#nav ul:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+#nav ul li {
+float: left;
+display: block;
+position: relative;
+margin: 0;
+padding: 0;
+border-width: 1px;
+border-style: solid;
+}
+#nav ul a {
+font-size: 12px;
+color: #fff;
+display: block;
+line-height: 12px;
+padding: 15px;
+font-weight: bold;
+text-shadow: 1px 1px 0 #000;
+}
+
+/* Drop Down Menus */
+#nav .sub-menu {
+position: absolute;
+z-index: 100;
+top: 43px;
+left: -1px;
+display: none;
+padding: 5px 5px 10px 5px;
+margin: 0;
+border-width: 0 1px 1px 1px;
+border-style: solid;
+width: 200px;
+-webkit-border-radius: 0 0 5px 5px;
+-moz-border-radius: 0 0 5px 5px;
+border-radius: 0 0 5px 5px;
+}
+#nav .sub-menu li {
+background: none;
+margin: 0;
+padding: 0;
+border: 0;
+height: auto;
+position: static;
+}
+#nav li:hover > .sub-menu {
+display: block;
+}
+#nav .sub-menu a {
+display: block;
+height: auto;
+float: left;
+padding: 5px 10px;
+margin: 0;
+width: 170px;
+line-height: 19px;
+}
+
+/* Sub Drop Down Menus */
+#nav ul .sub-menu li ul {
+top: auto;
+left: 200px;
+}
+#nav ul .sub-menu.align-right li ul {
+top: auto;
+left: -200px;
+}
+
+
+/*************************** User Details ***************************/
+
+#user-details {
+float: right;
+margin: 15px 0 0 0;
+}
+#user-details .login-name {
+float: left;
+color: #e5e5e5;
+font-weight: bold;
+text-shadow: 1px 1px 0 #000;
+margin: 1px 0 0 0;
+}
+#user-details a {
+float: left;
+line-height: 12px;
+font-weight: bold;
+text-shadow: 1px 1px 0 #000;
+color: #8bafce;
+margin: 1px 0 0 15px;
+}
+#user-details a:hover {
+color: #fff;
+}
+#search-panel {
+float: left;
+}
+#search-icon {
+float: left;
+border-width: 1px;
+border-style: solid;
+margin: -15px 0 0 15px;
+padding: 10px;
+display: block;
+background-image: url(../../../../../../20140209053920im_/http_/www.combat3.com/wp-content/themes/score/lib/images/sprite.png);
+background-position: 10px -108px;
+background-repeat: no-repeat;
+width: 13px;
+height: 22px;
+cursor: pointer;
+}
+#search-box {
+position: absolute;
+top: 44px;
+right: 25px;
+width: 245px;
+padding: 20px;
+display: none;
+border-width: 0 1px 1px 1px;
+border-style: solid;
+-webkit-border-radius: 0 0 5px 5px;
+-moz-border-radius: 0 0 5px 5px;
+border-radius: 0 0 5px 5px;
+}
+.no-js #search-panel:hover #search-box {
+display: block;
+}
+#search-panel input {
+border: 0;
+}
+
+
+
+/*************************** Social Wrapper ***************************/
+
+/* Social Wrapper */
+#social-wrapper {
+float: left;
+width: 100%;
+height: 32px;
+position: relative;
+}
+
+/* Scroller */
+#scroller {
+float: left;
+margin: 6px 0 0 30px;
+overflow: hidden;
+height: 16px;
+line-height: 16px;
+color: #fff;
+text-shadow: 1px 1px 0 #000;
+}
+.no-js #scroller {
+display: none;
+}
+#scroller-title {
+float: left;
+color: #fff;
+font-weight: bold;
+}
+#scroller-marquee {
+float: left;
+display: none;
+}
+.no-js #scroller-marquee {
+display: block;
+}
+#scroller a {
+color: #fff;
+}
+.scroller-bullet {
+margin: 0 10px;
+font-size: 14px;
+}
+#scroller #scroller-marquee .scroller-bullet:first-child {
+display: none;
+}
+
+/* Social Icons */
+#social-icons {
+float: right;
+background: url(../../../../../../20140209061757im_/http_/www.combat3.com/wp-content/themes/score/lib/images/diag-right.png) left top no-repeat;
+padding: 5px 30px 10px 50px;
+}
+#social-icons a {
+float: left;
+display: block;
+margin-left: 15px;
+width: 20px;
+height: 17px;
+}
+.youtube-icon {
+background: url(../../../../../../20140209053920im_/http_/www.combat3.com/wp-content/themes/score/lib/images/sprite.png) no-repeat 0px -57px;
+}
+.youtube-icon:hover {
+background: url(../../../../../../20140209053920im_/http_/www.combat3.com/wp-content/themes/score/lib/images/sprite.png) no-repeat 0px -87px;
+}
+.facebook-icon {
+background: url(../../../../../../20140209053920im_/http_/www.combat3.com/wp-content/themes/score/lib/images/sprite.png) no-repeat -36px -57px;
+}
+.facebook-icon:hover {
+background: url(../../../../../../20140209053920im_/http_/www.combat3.com/wp-content/themes/score/lib/images/sprite.png) no-repeat -36px -87px;
+}
+.twitter-icon {
+background: url(../../../../../../20140209053920im_/http_/www.combat3.com/wp-content/themes/score/lib/images/sprite.png) no-repeat -72px -57px;
+}
+.twitter-icon:hover {
+background: url(../../../../../../20140209053920im_/http_/www.combat3.com/wp-content/themes/score/lib/images/sprite.png) no-repeat -72px -87px;
+}
+.dribbble-icon {
+background: url(../../../../../../20140209053920im_/http_/www.combat3.com/wp-content/themes/score/lib/images/sprite.png) no-repeat -112px -57px;
+}
+.dribbble-icon:hover {
+background: url(../../../../../../20140209053920im_/http_/www.combat3.com/wp-content/themes/score/lib/images/sprite.png) no-repeat -112px -87px;
+}
+.digg-icon {
+background: url(../../../../../../20140209053920im_/http_/www.combat3.com/wp-content/themes/score/lib/images/sprite.png) no-repeat -141px -57px;
+}
+.digg-icon:hover {
+background: url(../../../../../../20140209053920im_/http_/www.combat3.com/wp-content/themes/score/lib/images/sprite.png) no-repeat -141px -87px;
+}
+.vimeo-icon {
+background: url(../../../../../../20140209053920im_/http_/www.combat3.com/wp-content/themes/score/lib/images/sprite.png) no-repeat -180px -57px;
+}
+.vimeo-icon:hover {
+background: url(../../../../../../20140209053920im_/http_/www.combat3.com/wp-content/themes/score/lib/images/sprite.png) no-repeat -180px -87px;
+}
+.delicious-icon {
+background: url(../../../../../../20140209053920im_/http_/www.combat3.com/wp-content/themes/score/lib/images/sprite.png) no-repeat -215px -57px;
+}
+.delicious-icon:hover {
+background: url(../../../../../../20140209053920im_/http_/www.combat3.com/wp-content/themes/score/lib/images/sprite.png) no-repeat -215px -87px;
+}
+.rss-icon {
+background: url(../../../../../../20140209053920im_/http_/www.combat3.com/wp-content/themes/score/lib/images/sprite.png) no-repeat -250px -57px;
+}
+.rss-icon:hover {
+background: url(../../../../../../20140209053920im_/http_/www.combat3.com/wp-content/themes/score/lib/images/sprite.png) no-repeat -250px -87px;
+}
+.linkedin-icon {
+background: url(../../../../../../20140209053920im_/http_/www.combat3.com/wp-content/themes/score/lib/images/sprite.png) no-repeat -320px -57px;
+}
+.linkedin-icon:hover {
+background: url(../../../../../../20140209053920im_/http_/www.combat3.com/wp-content/themes/score/lib/images/sprite.png) no-repeat -320px -87px;
+}
+.googleplus-icon {
+background: url(../../../../../../20140209053920im_/http_/www.combat3.com/wp-content/themes/score/lib/images/sprite.png) no-repeat -357px -57px;
+}
+.googleplus-icon:hover {
+background: url(../../../../../../20140209053920im_/http_/www.combat3.com/wp-content/themes/score/lib/images/sprite.png) no-repeat -357px -87px;
+}
+
+
+/*************************** Slider ***************************/
+
+#slider-wrapper {
+float: left;
+position: relative;
+width: 920px;
+height: 270px;
+padding: 30px;
+overflow: hidden;
+}
+#slider-wrapper .error {
+color: #fff;
+padding: 10px;
+border-width: 1px;
+border-style: solid;
+line-height: 19px;
+}
+#slider-wrapper .error a:hover {
+text-decoration: underline;
+}
+.caroufredsel_wrapper {
+z-index: 2;
+}
+#slider {
+float: left;
+position: relative;
+z-index: 2;
+overflow: hidden;
+}
+.no-js #slider {
+min-width: 5000px;
+}
+.slide {
+position: relative;
+overflow: hidden;
+float: left;
+width: 160px;
+height: 220px;
+line-height: 0;
+margin: 40px 30px 0 0;
+}
+.slide.slide-large {
+margin: 0 30px 0 0;
+width: 350px;
+height: 270px;
+}
+#slider-inner-bg {
+position: absolute;
+top: 40px;
+right: 0;
+z-index: 1;
+width: 980px;
+height: 250px;
+}
+
+/* Slide Caption */
+.slide-caption {
+float: left;
+width: 100%;
+height: 100%;
+position: relative;
+margin-top: 10px;
+}
+.slide-caption h2,
+.slide-caption h2 a {
+display: block;
+float: left;
+color: #fff;
+font-size: 12px;
+line-height: 19px;
+text-shadow: 1px 1px 0 #000;
+width: 111px;
+height: 100%;
+margin: 0;
+}
+.slide-caption h2 a {
+cursor: pointer;
+}
+.slide-caption h2 a:hover {
+color: #fff;
+}
+.slide-caption.hidden h2 {
+width: 160px;
+}
+.slide-large .slide-caption {
+position: absolute;
+left: 0;
+bottom: 0;
+height: auto;
+min-height: 58px;
+background: url(../../../../../../20140209060542im_/http_/www.combat3.com/wp-content/themes/score/lib/images/slide-caption-bg.png) repeat;
+padding: 20px;
+width: 310px;
+}
+.slide-large .slide-caption h2,
+.slide-large .slide-caption h2 a {
+font-size: 16px;
+width: 220px;
+}
+.slide-large .slide-caption.hidden h2 {
+width: 310px;
+}
+
+/* Slider Score */
+.slide-large .post-scores {
+width: 80px;
+}
+.slide-large .post-scores .site-score,
+.slide-large .post-scores .user-score {
+line-height: 40px;
+}
+.slide-small .post-scores {
+width: 34px;
+margin: 0 0 0 15px;
+}
+.slide-small .post-scores .site-score,
+.slide-small .post-scores .user-score {
+width: 34px;
+height: 15px;
+padding: 7px 0;
+font-size: 14px;
+line-height: 14px;
+}
+
+/* Slider Nav */
+#slider-nav {
+float: right;
+position: absolute;
+top: 10px;
+right: 30px;
+}
+#slide-prev {
+float: left;
+width: 17px;
+height: 19px;
+background: url(../../../../../../20140209053920im_/http_/www.combat3.com/wp-content/themes/score/lib/images/sprite.png) 0 0;
+margin-left: 20px;
+cursor: pointer;
+}
+#slide-prev:hover {
+background: url(../../../../../../20140209053920im_/http_/www.combat3.com/wp-content/themes/score/lib/images/sprite.png) 0 -30px;
+}
+#slide-move-outer {
+float: left;
+margin-left: 20px;
+}
+#slide-move-inner {
+float: left;
+width: 12px;
+height: 19px;
+cursor: pointer;
+background: url(../../../../../../20140209053920im_/http_/www.combat3.com/wp-content/themes/score/lib/images/sprite.png) -35px 0;
+}
+#slide-move-inner:hover {
+background: url(../../../../../../20140209053920im_/http_/www.combat3.com/wp-content/themes/score/lib/images/sprite.png) -35px -30px;
+}
+#slide-move-inner.play {
+background: url(../../../../../../20140209053920im_/http_/www.combat3.com/wp-content/themes/score/lib/images/sprite.png) -100px 0;
+}
+#slide-move-inner.play:hover {
+background: url(../../../../../../20140209053920im_/http_/www.combat3.com/wp-content/themes/score/lib/images/sprite.png) -100px -30px;
+}
+#slide-next {
+float: left;
+width: 17px;
+height: 19px;
+background: url(../../../../../../20140209053920im_/http_/www.combat3.com/wp-content/themes/score/lib/images/sprite.png) -64px 0;
+margin-left: 20px;
+cursor: pointer;
+}
+#slide-next:hover {
+background: url(../../../../../../20140209053920im_/http_/www.combat3.com/wp-content/themes/score/lib/images/sprite.png) -64px -30px;
+}
+
+
+/*************************** Page/Post ***************************/
+
+/* Page */
+.page-title {
+display: block;
+padding: 0 0 15px 0;
+margin: 0 0 30px 0;
+font-size: 30px;
+border-bottom: 1px solid #e5e5e5;
+}
+
+/* Posts */
+.post-loop {
+float: left;
+width: 100%;
+position: relative;
+margin: 0 0 20px 0;
+padding: 0 0 20px 0;
+border-bottom: 1px solid #e5e5e5;
+}
+.shift-down .post-loop:first-child {
+margin-top: 70px;
+}
+.post-loop:last-child {
+margin: 0;
+}
+.post-thumbnail {
+display: block;
+line-height: 0;
+position: relative;
+float: left;
+overflow: hidden;
+margin: 0 15px 0 0;
+}
+.post-thumbnail.thumbnail-no-wrap {
+margin: 0 0 15px 0;
+}
+.post-thumbnail:hover {
+}
+.post-thumbnail img {
+display: block;
+position: relative;
+}
+.post-text {
+float: left;
+}
+.post-text h2 {
+font-size: 14px;
+margin-bottom: 5px;
+}
+
+/* Post Scores */
+.post-scores {
+float: right;
+width: 80px;
+}
+.post-scores .site-score,
+.post-scores .user-score {
+font-size: 30px;
+width: 80px;
+height: 40px;
+text-align: center;
+margin: 0;
+padding: 15px 0;
+}
+.hidden .post-scores {
+display: none;
+}
+
+/* Post Date */
+.post-date {
+float: left;
+width: 80px;
+font-weight: bold;
+margin: 5px 0 0 15px;
+}
+
+/* Post Meta */
+.post-meta {
+float: left;
+width: 100%;
+color: #999;
+font-size: 11px;
+margin: 0 0 20px 0;
+}
+.post-text .post-meta {
+margin: 0;
+}
+.post-meta a {
+color: #999;
+}
+.post-meta a:hover {
+color: #434343;
+}
+
+/* Share */
+ul#share-review-link,
+#share-review-link li {
+display: inline;
+list-style: none;
+margin: 0;
+padding: 0;
+border: 0;
+position: relative;
+width: auto;
+}
+ul#share-review {
+float: left;
+position: absolute;
+z-index: 2;
+top: 20px;
+right: 0;
+display: none;
+background: #fff;
+border: 1px solid #e5e5e5;
+padding: 0 15px 15px 15px;
+width: 100px;
+}
+.no-js #share-review-link:hover ul#share-review {
+display: block;
+}
+#share-review li {
+float: left;
+list-style: none;
+padding: 0;
+margin: 15px 0 0 0;
+}
+
+/* Follow/Unfollow Button */
+.wpfp-span {
+float: left;
+display: block;
+width: 100%;
+margin: 0 0 10px 0;
+}
+.wpfp-link {
+float: left;
+line-height: 13px;
+padding: 5px 10px;
+background: #2D5069; 
+color: #fff;
+font-weight: bold;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+.wpfp-link:hover {
+background: #273138;
+color: #fff;
+}
+
+/* Attachments */
+.attachment img {
+max-width: 100%;
+height: auto;
+}
+.attachment p {
+margin-top: 12px;
+}
+
+
+/*************************** Drop Down Menu Filter ***************************/
+
+#dropdown-filter {
+float: left;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+padding: 0 0 15px 0;
+margin: 0 0 30px 0;
+border-bottom: 1px dotted #e5e5e5;
+display: none;
+}
+.no-js #dropdown-filter {
+display: block;
+}
+.order-by-text {
+float: left;
+font-weight: bold;
+margin-right: 10px;
+}
+.order-text {
+float: left;
+font-weight: bold;
+margin-right: 10px;
+}
+.jqTransformSelectWrapper {
+width: 45px;
+position:relative;
+height: 14px;
+float: left;
+}
+.jqTransformSelectWrapper div span {
+font-size: 12px;
+color: #d14836;
+float: none;
+position: absolute;
+white-space: nowrap;
+height: 14px;
+overflow: hidden;
+cursor: pointer;
+}
+.jqTransformSelectWrapper a.jqTransformSelectOpen {
+display: block;
+position: absolute;
+top: 1px;
+right: 25px;
+background: url(../../../../../../20140209053920im_/http_/www.combat3.com/wp-content/themes/score/lib/images/sprite.png) 0 -221px no-repeat;
+width: 9px;
+height: 8px;
+}
+#content .jqTransformSelectWrapper ul {
+position: absolute;
+width: 43px;
+top: 20px;
+left: 0;
+list-style: none;
+background-color: #fff;
+border: 1px solid #e5e5e5;
+display: none;
+margin: 0;
+padding: 0;
+height: 200px;
+overflow: auto;
+overflow-y: auto;
+z-index: 10;
+}
+.jqTransformSelectWrapper ul li {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+.jqTransformSelectWrapper ul a {
+display: block;
+color: #666;
+padding: 10px 10px;
+text-decoration: none;
+font-size: 12px;
+}
+.jqTransformSelectWrapper ul a.selected {
+color: #666;
+}
+.jqTransformSelectWrapper ul a:hover,
+.jqTransformSelectWrapper ul a.selected:hover {
+background:#f5f5f5;
+}
+.jqTransformHidden {
+display: none;
+}
+
+
+/*************************** Review Post ***************************/
+
+/* Review Links */
+#review-links {
+float: left;
+width: 100%;
+border-bottom: 1px solid #e5e5e5;
+padding: 0 0 15px 0;
+margin: 0 0 30px 0;
+}
+#review-links ul {
+float: left;
+width: 100%;
+padding: 0;
+margin: 0;
+list-style-image: none;
+list-style: none;
+list-style-position: outside;
+}
+#review-links li {
+float: left;
+padding: 0 0 0 15px;
+margin: 0 0 0 15px;
+list-style: none;
+border-width: 0 0 0 1px;
+border-style: solid;
+border-color: #e5e5e5;
+}
+#review-links li:first-child {
+border: 0;
+margin: 0;
+padding: 0;
+}
+#review-links li a {
+font-weight: bold;
+}
+#review-links li a:hover {
+text-decoration: underline;
+}
+
+/* Review Container */
+#review-container {
+float: left;
+width: 100%;
+position: relative;
+margin: 0 0 20px 0;
+padding: 0 0 20px 0;
+border-bottom: 1px solid #e5e5e5;
+}
+#review-left {
+float: left;
+margin: 0 30px 0 0;
+}
+#review-left .post-thumbnail {
+margin: 0 0 10px 0;
+}
+#review-details {
+float: left;
+width: 100%;
+font-size: 11px;
+line-height: 19px;
+color: #999;
+}
+#review-right #review-details {
+margin-top: 0;
+}
+#more-images-link {
+float: left;
+width: 100%;
+font-size: 11px;
+display: block;
+line-height: 12px;
+text-align: center;
+margin: -5px 0 15px;
+}
+#review-right {
+float: left;
+}
+
+/* Review Panels */
+#review-panels,
+.review-panel {
+float: left;
+width: 100%;
+}
+.review-panel {
+display: none;
+}
+.review-panel h2 {
+font-size: 18px;
+}
+
+/* Site Score */
+.site-score {
+float: left;
+color: #fff;
+font-weight: bold;
+padding: 20px 0;
+font-size: 50px;
+text-align: center;
+margin: 0 0 15px 0;
+width: 120px;
+height: 60px;
+text-align: center;
+}
+.site-score-title {
+font-size: 12px;
+}
+
+/* Good/Bad Point */
+.good-bad-panel {
+float: left;
+background: #f5f5f5;
+padding: 15px;
+font-size: 11px;
+line-height: 13px;
+height: 70px;
+margin: 0 0 15px 0;
+}
+.good-point {
+float: left;
+height: 25px;
+width: 100%;
+padding: 0 0 10px 0;
+border-bottom: 1px solid #ddd;
+}
+.bad-point {
+float: left;
+height: 25px;
+width: 100%;
+padding: 10px 0 0 0;
+}
+
+/* User Score */
+.user-score {
+float: left;
+text-align: center;
+font-size: 35px;
+padding: 10px 0;
+margin: 0 20px 0 0;
+color: #fff;
+font-weight: bold;
+width: 120px;
+}
+.user-score-title {
+font-size: 12px;
+}
+.user-score .voted,
+.user-score .inactive {
+color: #fff !important;
+}
+.user-votes {
+font-size: 11px;
+margin: 5px 0 0 0;
+}
+.user-voting {
+float: left;
+margin-top: 20px;
+}
+.user-voting-text {
+float: left;
+width: 100%;
+font-weight: bold;
+}
+.user-score-stars {
+float: left;
+}
+.user-score-stars .ratingblock {
+display: block !important;
+}
+.user-score-stars .ratingtext {
+display: none;
+}
+
+/* Autoratings */
+/*#content .ratingblock,
+#content .thumblock {
+display: none;
+}*/
+
+
+/*************************** Image Gallery Post ***************************/
+
+.review-image {
+float: left;
+margin: 0 10px 10px 0;
+}
+
+
+/*************************** Video Post ***************************/
+
+.video {
+float: left;
+margin: 0 0 30px 0;
+background: #000;
+}
+.video-icon {
+background: url(../../../../../../20140209062107im_/http_/www.combat3.com/wp-content/themes/score/lib/images/video-icon.png) no-repeat;
+width: 20px;
+height: 20px;
+position: absolute;
+bottom: 10px;
+right: 10px;
+z-index: 2;
+}
+
+
+/*************************** Related Items ***************************/
+
+#related-items {
+float: left;
+width: 100%;
+margin: 18px 0 12px 0;
+}
+#related-items h3 {
+display: block;
+margin: 0 0 20px 0;
+font-size: 14px;
+padding: 0 0 15px 0;
+border-bottom: 5px solid #e5e5e5;
+}
+.related-item {
+float: left;
+width: 125px;
+margin: 0 0 0 30px;
+}
+#related-items div .related-item:first-child {
+margin-left: 0;
+}
+.related-item .post-thumbnail {
+margin: 0 0 10px 0;
+}
+.related-item .post-thumbnail img {
+max-width: 120px;
+height: auto;
+}
+.related-post-title {
+font-size: 12px;
+line-height: 15px;
+margin: 0;
+font-weight: bold;
+}
+.related-post-cats,
+.related-post-cats a {
+font-size: 11px;
+color: #999;
+margin-top: 3px;
+}
+.related-post-cats a:hover {
+color: #434343;
+}
+
+
+/*************************** Profile Page ***************************/
+
+/* Profile Details */
+.profile-avatar {
+float: left;
+background: #e5e5e5;
+padding: 15px;
+text-align: center;
+}
+.profile-avatar .avatar {
+display: block;
+margin: 0 0 15px 0;
+}
+.profile-details {
+float: left;
+width: 470px;
+background: #f5f5f5;
+padding: 15px;
+min-height: 87px;
+}
+.fullwidth .profile-details {
+width: 800px;
+}
+
+/* Edit Profile */
+.edit-profile-link {
+height: 12px;
+}
+#edit-profile.hidden {
+display: none;
+}
+#edituser {
+padding: 15px;
+}
+#edituser h3 {
+margin: 0 0 20px 0;
+}
+#edituser label {
+margin: 5px 0 0 10px;
+}
+#edituser p {
+float: left;
+width: 100%;
+}
+#edituser textarea {
+float: left;
+}
+.author .pp_social {
+display: none;
+}
+
+/* Profile Boxes */
+.profile-box {
+float: left;
+width: 590px;
+margin: 18px 0 0 0;
+}
+.fullwidth .profile-box {
+width: 920px;
+}
+.profile-box h3 {
+display: block;
+margin: 0 !important;
+font-size: 12px;
+padding: 15px;
+background: #e5e5e5;
+}
+.profile-content {
+float: left;
+width: 560px;
+background: #f5f5f5;
+padding: 15px 15px 0 15px;
+}
+.fullwidth .profile-content {
+width: 890px;
+}
+.profile-content a {
+font-weight: bold;
+}
+.profile-item {
+float: left;
+width: 100%;
+margin: 0 0 10px 0;
+line-height: 19px;
+}
+.profile-item .post-meta {
+margin: 0;
+}
+.profile-item .post-thumbnail {
+margin-bottom: 15px;
+}
+
+
+/*************************** Shortcodes: Accordion ***************************/
+
+.accordion .panel {
+position: relative;
+width: 100%;
+margin: 0;
+overflow: hidden;
+}
+h3.accordion-title {
+font-size: 20px;
+padding: 0 0 0 25px;
+background: url(../../../../../../20140209053920im_/http_/www.combat3.com/wp-content/themes/score/lib/images/sprite.png) 0 -157px  no-repeat;
+}
+h3.ui-state-active.accordion-title {
+background-position: 0 -187px;
+}
+.panel-content {
+padding: 0 20px 20px 25px;
+line-height: 19px;
+}
+
+
+/*************************** Shortcodes: Author Info ***************************/
+
+.author-info {
+min-height: 50px;
+border: 1px solid #e5e5e5;
+background: #f7f7f7;
+padding: 10px;
+margin: 20px 0;
+}
+.author-info .avatar {
+float: left;
+margin-right: 10px;
+}
+.author-info .author-meta {
+margin-left: 60px;
+}
+.author-info .author-name {
+float: left;
+font-weight: bold;
+padding-bottom: 10px;
+}
+.author-info .author-links {
+float: right;
+color: #999;
+font-size: 11px;
+padding-bottom: 10px;
+}
+.author-info .author-desc {
+font-size: 11px;
+line-height: 16px;
+}
+
+
+/*************************** Shortcodes: Blockquotes ***************************/
+
+blockquote {
+clear: both;
+color: #999;
+font-family: Georgia, "Times New Roman";
+font-size: 16px;
+margin: 20px 20px 10px 20px;
+padding: 5px 0 5px 15px;
+overflow: hidden;
+}
+blockquote p {
+line-height: 23px;
+}
+.blockquote-left {
+float: left;
+margin: 20px 20px 20px 0;
+}
+.blockquote-right {
+float: right;
+margin: 20px 0 20px 20px;
+}
+.blockquote-right, .blockquote-left {
+width: 30%;
+color: #999;
+font-family: Georgia, "Times New Roman";
+font-size: 16px;
+line-height: 23px;
+padding: 5px 0 5px 15px;
+}
+
+
+/*************************** Shortcodes: Columns ***************************/
+
+/* General */
+.columns {
+float: left;
+position: relative;
+line-height: 19px;
+}
+
+/* Blank Columns */
+.blank {
+margin-right: 8%;
+}
+.one.blank {
+width: 100%;
+}
+.two.blank {
+width: 46%;
+}
+.three.blank {
+width: 28%;
+}
+.four.blank {
+width: 19%;
+}
+.five.blank {
+width: 15.2%;
+}
+.onethird.blank {
+width: 28%;
+}
+.twothirds.blank {
+width: 64%;
+}
+.onefourth.blank {
+width: 19%;
+}
+.threefourths.blank {
+width: 81%;
+}
+
+/* Separate Columns */
+.separate > div {
+border: 1px solid #e5e5e5;
+position: relative;
+padding: 20px;
+}
+.separate {
+margin-right: 2%;
+}
+.one.separate {
+width: 100%;
+}
+.two.separate {
+width: 49%;
+}
+.three.separate {
+width: 32%;
+}
+.four.separate {
+width: 23.5%;
+}
+.five.separate {
+width: 18.4%;
+}
+.onethird.separate {
+width: 32%;
+}
+.twothirds.separate {
+width: 66%;
+}
+.onefourth.separate {
+width: 23.5%;
+}
+.threefourths.separate {
+width: 74.5%;
+}
+
+/* Joint Columns */
+.joint > div {
+border: 1px solid #e5e5e5;
+position: relative;
+padding: 20px;
+}
+.one.joint {
+width: 100%;
+}
+.two.joint {
+width: 50%;
+}
+.three.joint {
+width: 33.33%;
+}
+.four.joint {
+width: 25%;
+}
+.five.joint {
+width: 20%;
+}
+.onethird.joint {
+width: 33.33%;
+}
+.twothirds.joint {
+width: 66.33%;
+}
+.onefourth.joint {
+width: 25%;
+}
+.threefourths.joint {
+width: 75%;
+}
+
+.last {
+clear: right;
+margin-right: 0;
+}
+
+
+/*************************** Shortcodes: Contact Form ***************************/
+
+#contact-form {
+float: left;
+width: 100%;
+margin-bottom: 12px;
+}
+#contact-form .textfield_label {
+margin: 0 0 0 10px;
+}
+#contact-form .contact-verify {
+float: left;
+margin-bottom: 12px;
+}
+#contact-form .contact-submit {
+float: left;
+}
+#contact-form textarea {
+width: 90%;
+max-width: 550px;
+}
+input[type="text"].input-error,
+textarea.input-error {
+border-color: #ca4f4f;
+}
+#contact-form .loader {
+display: none;
+background: url(../../../../../../20140209053841im_/http_/www.combat3.com/wp-content/themes/score/lib/images/loader.gif) no-repeat right bottom;
+float: left;
+padding: 7px 0 0 10px;
+width: 16px;
+height: 16px;
+}
+.contact-success,
+.contact-error {
+margin: 0 0 20px 0;
+display: block;
+text-shadow: none;
+font-weight: bold;
+}
+
+
+/*************************** Shortcodes: Dividers ***************************/
+
+.sc-divider {
+border-bottom: 1px solid #e5e5e5;
+clear: both;
+width: 100%;
+margin: 30px 0;
+position: relative;
+}
+.sc-divider.top a {
+color: #999;
+font-size: 8px;
+float: right;
+width: 20px;
+position: absolute;
+top: -15px;
+right: 0;
+text-align: right;
+cursor: pointer;
+}
+.sc-divider.small {
+margin: 0;
+}
+.sc-divider.clear {
+background: none;
+height: 10px;
+border: 0;
+margin-bottom: 0;
+}
+.sc-divider.small.clear {
+border: 0;
+margin: 0;
+}
+
+
+/*************************** Shortcodes: Tabs ***************************/
+
+.ui-tabs {
+position: relative;
+padding: 0;
+padding-top: 0 !important;
+top: -4px;
+zoom: 1;
+}
+.ui-tabs .ui-tabs-nav {
+display: block;
+margin: 0;
+padding: 0;
+}
+.ui-tabs .ui-tabs-nav li { 
+z-index: 1;
+background-image: none;
+background-color: #fff;
+list-style: none !important;
+float: left;
+position: relative;
+top: 1px;
+margin: 0 !important;
+border-bottom: 0 !important;
+padding: 0;
+white-space: nowrap;
+border: 0;
+}
+.ui-tabs .ui-tabs-nav li a {
+float: left;
+font-weight: bold;
+padding: 10px;
+text-decoration: none;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected { 
+z-index: 3;
+border: 1px solid #e5e5e5;
+border-bottom-color: #fff;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a,
+.ui-tabs .ui-tabs-nav li.ui-state-disabled a,
+.ui-tabs .ui-tabs-nav li.ui-state-processing a {
+cursor: text;
+color: #333;
+}
+.ui-tabs .ui-tabs-nav li.ui-state-hover a {
+color: #333;
+}
+.ui-tabs .ui-tabs-nav li a,
+.ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a {
+color: #999;
+cursor: pointer;
+} 
+.ui-tabs-nav .tabhead {
+cursor:pointer;
+font-size: 12px !important;
+margin-bottom: 0;
+display: block;
+}
+.ui-tabs-panel  {
+z-index: 2;
+position: relative;
+height: inherit;
+line-height: 19px;
+overflow: hidden;
+margin: 0 0 10px 0;
+padding: 15px;
+border: 1px solid #e5e5e5;
+}
+.ui-tabs .ui-tabs-hide {
+display: none !important;
+}
+
+
+/*************************** Shortcodes: Toggle Box ***************************/
+
+h3.toggle {
+background: url(../../../../../../20140209053920im_/http_/www.combat3.com/wp-content/themes/score/lib/images/sprite.png) 0 -157px  no-repeat;
+padding: 0 0 0 25px;
+margin: 0 0 20px 0;
+cursor: pointer;
+font-size: 20px;
+}
+h3.toggle a {
+text-decoration: none;
+display: block;
+}
+h3.toggle-active {
+background-position: 0 -187px;
+}
+.toggle-box {
+clear:both;
+margin: 0 0 10px 0;
+overflow: hidden;
+}
+
+
+/*************************** Shortcodes: Video ***************************/
+
+.sc-video.aligncenter object,
+.sc-video.aligncenter div,
+.sc-video.aligncenter video {
+margin: 0 auto;
+display: block;
+}
+
+
+/*************************** Footer ***************************/
+
+/* Footer Widgets */
+.footer-widgets-border-left {
+float: left;
+width: 260px;
+height: 10px;
+}
+.footer-widgets-border-right {
+float: left;
+background: #e5e5e5;
+width: 720px;
+height: 10px;
+}
+#footer-widgets {
+float: left;
+background: #fafafa;
+width: 920px;
+padding: 30px 30px 0 30px;
+background-color: #fff;
+background-image: -moz-linear-gradient(top, #ffffff, #e5e5e5);
+background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#e5e5e5));
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#ffffff, endColorstr=#e5e5e5);
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#ffffff, endColorstr=#e5e5e5)";
+}
+.footer-widget-outer {
+float: left;
+margin: 0 0 0 30px;
+}
+.footer-widget-inner {
+float: left;
+width: 100%;
+}
+#footer-widgets > div:first-child {
+margin-left: 0;
+}
+.footer-whole {
+width: 920px;
+}
+.footer-half {
+width: 445px;
+}
+.footer-third {
+width: 286.6px;
+}
+.footer-fourth {
+width: 207.5px;
+}
+.footer-widget-inner h3 {
+font-size: 14px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+.footer-widget-inner li {
+list-style-image: none;
+list-style-type: none;
+margin: 0;
+}
+.footer-widget-inner .textfield {
+width: 125px;
+}
+.footer-widget-inner textarea {
+height: 75px;
+}
+.footer-widget-inner .verify {
+width: 30px;
+}
+
+/* Footer Bottom */
+#footer-bottom {
+float: left;
+background: url(../../../../../../20140209053118im_/http_/www.combat3.com/wp-content/themes/score/lib/images/stripes-bg.png) no-repeat center top;
+position: relative;
+padding: 30px;
+width: 920px;
+-webkit-border-radius: 0 0 5px 5px;
+-moz-border-radius: 0 0 5px 5px;
+border-radius: 0 0 5px 5px;
+}
+#footer-bottom a:hover {
+color: #fff;
+}
+#footer-bottom h2,
+#footer-bottom h3,
+#footer-bottom h4,
+#footer-bottom h5,
+#footer-bottom h6 {
+color: #fff;
+}
+#footer-bottom p {
+margin-bottom: 5px;
+line-height: 17px;
+}
+#footer-bottom p:last-child {
+margin-bottom: 0;
+}
+#footer-bottom li {
+list-style-image: none;
+list-style-type: none;
+margin: 0;
+}
+#footer-bottom > .columns {
+margin-top: 20px;
+font-size: 11px;
+line-height: 17px;
+}
+#footer-bottom > .columns:first-child {
+margin-top: 0;
+}
+#footer-bottom .columns.separate > div,
+#footer-bottom .columns.joint > div {
+background: url(../../../../../../20140209062325im_/http_/www.combat3.com/wp-content/themes/score/lib/images/footer-column-bg.png) repeat;
+border: 0;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+padding: 20px;
+}
+
+
+/*************************** Widgets ***************************/
+
+/* General Widget Styling */
+.widget {
+float: left;
+width: 100%;
+margin-bottom: 30px;
+}
+.widget h3 {
+font-size: 14px;
+font-weight: bold;
+padding: 0 0 10px 0;
+margin-bottom: 20px;
+border-bottom: 5px solid #e5e5e5;
+}
+.widget li {
+list-style-image: none;
+list-style-type: none;
+margin: 0;
+}
+.textwidget {
+line-height: 19px;
+}
+
+/* Search Widget */
+#searchform {
+float: left;
+}
+#searchbar {
+float: left;
+width: 150px;
+margin: 0 10px 0 0;
+}
+#searchsubmit {
+float: left;
+margin: 0;
+}
+
+/* Calendar Widget */
+#wp-calendar {
+margin: 0 auto;
+}
+#wp-calendar caption {
+text-align: right;
+margin-bottom: 10px;
+}
+
+/* Posts Widget */
+.posts-widget .post-title {
+font-weight: bold;
+line-height: 15px;
+}
+.posts-widget .post-text .post-scores {
+float: none;
+width: auto;
+}
+.posts-widget .site-score,
+.posts-widget .user-score {
+float: left;
+width: 34px;
+height: 15px;
+padding: 7px 0;
+font-size: 14px;
+margin: 0 0 0 15px;
+}
+.posts-widget .post-cats {
+font-size: 11px;
+margin-top: 5px;
+color: #666;
+}
+.posts-widget .post-meta {
+font-size: 11px;
+margin: 5px 0 0 0;
+}
+.posts-widget .post-meta a {
+color: #999;
+}
+.posts-widget .post-cats a:hover,
+.posts-widget .post-meta a:hover {
+color: #434343;
+}
+
+
+/*************************** Comments Section ***************************/
+
+/* Comment List */
+#comments {
+float: left;
+width: 100%;
+margin: 18px 0 0 0;
+}
+#comments .wp-pagenavi {
+margin-bottom: 30px; 
+}
+h3.comments {
+display: block;
+margin: 0 0 20px 0;
+font-size: 14px;
+padding: 0 0 15px 0;
+border-bottom: 5px solid #e5e5e5;
+}
+#commentlist,
+#commentlist ul,
+#commentlist li {
+list-style: none;
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+/* Comment Box */
+.comment-box {
+position: relative;
+margin: 0 0 20px 0;
+padding: 0 0 20px 0;
+border-bottom: 1px solid #e5e5e5;
+}
+.comment-avatar {
+float: left;
+margin-right: 15px;
+}
+.comment-meta {
+float: left;
+min-width: 200px;
+}
+.comment-author {
+float: left;
+font-weight: bold;
+margin-right: 10px;
+}
+.comment-date {
+float: left;
+font-size: 11px;
+color: #999;
+margin: 5px 0;
+}
+.reply-link {
+float: left;
+margin: 5px 0;
+font-size: 11px;
+}
+.reply-link a {
+color: #999;
+}
+.reply-link a:hover {
+color: #434343;
+}
+.reply-link.hidden {
+display: none;
+}
+.comment-text {
+padding: 10px 0 0 0;
+}
+.comment-text .moderation {
+margin: 0 0 12px 0;
+text-shadow: none;
+font-weight: bold;
+}
+.comment-text .ratingblock,
+.comment-text .thumb-rating {
+display: none;
+}
+.comment-user-score {
+float: left;
+position: absolute;
+right: 0;
+top: 0;
+}
+
+/* CURRENT - Comment Thumb Ratings */
+.thumb-rating {
+margin-top: 10px;
+}
+.thumb-rating-text {
+float: left;
+}
+.thumb-rating-text .gdthumbtext {
+font-size: 11px;
+color: #999;
+}
+.thumb-icons {
+float: right;
+font-size: 11px;
+color: #999;
+margin: 2px 0 0 0;
+}
+.thumb-icons .gdthumb {
+margin: -3px 0 0 0;
+}
+.thumb-icons .left {
+margin: 0 10px 0 5px;
+}
+
+/* NEW - Comment Thumb Ratings */
+/*.thumb-rating {
+clear: both;
+float: left;
+width: 100%;
+margin: 10px 0 0 0;
+font-size: 11px;
+color: #999;
+}
+.thumb-rating .thumblock {
+float: left;
+display: block !important;
+margin: -3px 0 0 5px;
+}
+.thumb-rating .ratingtext {
+display: none;
+}*/
+
+/* Child Comments */
+#commentlist .children .comment {
+margin-left: 20px;
+background: none;
+}
+
+/* Comment Post Author */
+#commentlist .post-author {
+display: none;
+}
+#commentlist .bypostauthor > .comment-box .post-author {
+display: block;
+font-size: 11px;
+}
+
+/* Comment Form */
+#commentform {
+float: left;
+width: 100%;
+margin: 10px 0 12px 0;
+}
+#commentform.hidden {
+display: none;
+}
+#respond h3 {
+display: block;
+margin: 0 0 20px 0;
+font-size: 14px;
+padding: 0 0 15px 0;
+border-bottom: 5px solid #e5e5e5;
+}
+#respond form {
+padding: 10px 0 30px 0;
+}
+#respond label {
+margin-left: 10px;
+}
+#respond textarea {
+width: 544px;
+max-width: 544px;
+height: 150px;
+}
+#cancel-comment-reply-link {
+float: right;
+display: block;
+font-size: 11px;
+font-weight: normal;
+}
+
+/* Comment Score */
+.comment-score {
+float: left;
+width: 100%;
+margin: 0 0 15px 0;
+display: none;
+}
+#commentform .comment-score {
+display: block;
+}
+.comment-score-title {
+float: left;
+font-weight: bold;
+margin: 0 15px 0 0;
+}
+.comment-score-stars {
+float: left;
+margin: -10px 0 0 0;
+}
+
+
+/*************************** Page Navigation ***************************/
+
+/* Page & Comments Navigation */
+.wp-pagenavi {
+float: left;
+width: 100%;
+margin: 10px 0 0 -10px;
+}
+.wp-pagenavi.post-navi {
+margin-bottom: 12px;
+}
+.wp-pagenavi span,
+.wp-pagenavi a,
+.wp-pagenavi.post-navi a span {
+display: block;
+float: left;
+font-weight: bold;
+margin: 0 10px;
+text-align: center;
+}
+.wp-pagenavi.post-navi a span {
+margin: 0;
+}
+
+
+/*************************** WP Admin Bar ***************************/
+
+#wpadminbar ul li {
+border-bottom: 0;
+border-top: 0;
+}
+/*
+     FILE ARCHIVED ON 08:04:31 Feb 08, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:45:42 Apr 19, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 25.608 (3)
+  esindex: 0.006
+  captures_list: 44.014
+  CDXLines.iter: 12.502 (3)
+  PetaboxLoader3.datanode: 58.043 (5)
+  exclusion.robots: 0.125
+  exclusion.robots.policy: 0.115
+  RedisCDXSource: 1.78
+  PetaboxLoader3.resolve: 36.216 (2)
+  load_resource: 72.496
+*/

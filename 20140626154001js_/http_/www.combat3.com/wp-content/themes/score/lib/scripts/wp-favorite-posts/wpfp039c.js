@@ -30,7 +30,7 @@ function wpfp_do_js( dhis, doAjax ) {
 }
 /*
      FILE ARCHIVED ON 15:40:01 Jun 26, 2014 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 00:43:43 Apr 18, 2019.
+     INTERNET ARCHIVE ON 16:30:39 Apr 19, 2019.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -38,14 +38,14 @@ function wpfp_do_js( dhis, doAjax ) {
 */
 /*
 playback timings (ms):
-  LoadShardBlock: 112.84 (3)
+  LoadShardBlock: 69.751 (3)
   esindex: 0.007
-  captures_list: 137.163
-  CDXLines.iter: 10.574 (3)
-  PetaboxLoader3.datanode: 107.15 (5)
-  exclusion.robots: 0.161
-  exclusion.robots.policy: 0.149
-  RedisCDXSource: 10.197
-  PetaboxLoader3.resolve: 106.997 (4)
-  load_resource: 130.706
+  captures_list: 112.802
+  CDXLines.iter: 11.996 (3)
+  PetaboxLoader3.datanode: 95.508 (5)
+  exclusion.robots: 0.148
+  exclusion.robots.policy: 0.126
+  RedisCDXSource: 27.015
+  PetaboxLoader3.resolve: 152.335 (2)
+  load_resource: 181.047
 */
